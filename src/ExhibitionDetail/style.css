@@ -1,0 +1,122 @@
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
+.image-gallery {
+  width: 100%;
+  height: 330px;
+  width: 330px;
+  object-fit: cover;
+  margin: 0;
+  
+
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  width: 16px;
+}
+
+/* --------------- Exhibition detail ------------ */
+
+.exhibition {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px
+}
+
+.exhibition__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  
+}
+
+.exhibition__item {
+  flex-basis: 50%; 
+  height: 420px;
+}
+
+.exhibition__gallery {
+  flex-basis: 40%;
+
+}
+
+.exhibition__artist {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.exhibition__date {
+  padding-left: 0px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.exhibition__desc {
+  padding-left: 0;
+  padding-bottom: 15px;
+}
+
+
+
+@media (max-width:850px) {
+  .exhibition__content {
+    flex-direction: column;
+  }
+
+  .exhibition__gallery {
+    padding: 20px 0 20px;
+  }
+
+  .image-gallery {
+    width: 260px;
+  }
+
+}
+/* ----------- Review -------------- */
+
+.exhibition__title {
+  margin-bottom: 15px;
+}
+
+.exhibition__divider {
+  width: 100%;
+  border: 1px solid #f44336; 
+  margin: 0 0 20px;
+  background-color: #f44336; 
+}
+
+.exhihibition__review {
+  display: flex;
+}
+
+
+.exhibition__review-card {
+  margin-bottom: 30px;
+}
+
+.exhibition__review-form {
+  margin-bottom: 30px;
+}
+
+
+.exhibition__messeage {
+  border: 1px solid rgb(209, 206, 206);
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 300px;
+}
+
+.exhibition__text,
+.exhibition__name,
+.exhibition__dates {
+  padding: 0;
+}
+
+.exhibition__text {
+  padding-bottom: 20px;
+}
+

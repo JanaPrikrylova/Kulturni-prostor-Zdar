@@ -1,0 +1,18 @@
+.exhibitions {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+.exhibitions__content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+}
+
+.exhibitions h1 {
+  font-size: 36px;
+  text-align: center;
+}
